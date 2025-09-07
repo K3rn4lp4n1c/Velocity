@@ -1,0 +1,11 @@
+{
+  "name": "vehiclesim",
+  "version": "0.1.0",
+  "description": "OOP/DSA vehicle simulation (console-first)",
+  "dependencies": [
+    "nlohmann-json",
+    "fmt",
+    "gtest"
+  ],
+  "builtin-baseline": "HEAD"
+}
