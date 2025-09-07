@@ -39,3 +39,26 @@
 
 # debug information files
 *.dwo
+
+# Visual Studio
+.vs/
+*.user
+*.VC.db
+x64/
+Debug/
+Release/
+ipch/
+
+# CMake
+/build/
+CMakeCache.txt
+CMakeFiles/
+
+# Binaries
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.o
+*.a
