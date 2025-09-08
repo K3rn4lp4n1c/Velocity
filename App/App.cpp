@@ -4,7 +4,7 @@
 
 int main() {
     std::cout << "VehicleSim running.\n";
-    Vehicle car;
+    veh::Vehicle car;
     car.accelerate();
     return 0;
 }

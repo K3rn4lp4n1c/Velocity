@@ -15,16 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\vehicles\IVehicle.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\vehicles\car.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\main\Vehicle.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\VehicleClass.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

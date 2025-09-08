@@ -15,5 +15,6 @@ namespace veh {
 			double speed[2]{ 0, 299999999 };
 		};
 		void resistance();
+		void unit_conversion();
 	};
 }
