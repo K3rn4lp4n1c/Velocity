@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\main\Vehicle.hpp" />
+    <ClInclude Include="include\vehicles\bike.hpp" />
     <ClInclude Include="include\vehicles\car.hpp" />
   </ItemGroup>
   <ItemGroup>
