@@ -19,6 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\main\Vehicle.hpp" />
+    <ClInclude Include="include\VehicleClass.hpp" />
+    <ClInclude Include="include\vehicles\car.hpp" />
     <ClInclude Include="include\vehicles\IVehicle.hpp" />
   </ItemGroup>
   <ItemGroup>
