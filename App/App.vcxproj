@@ -102,7 +102,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Core\include;%(AdditionalIncludeDirectories)$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,6 +130,16 @@
     <ProjectReference Include="..\Core\Core.vcxproj">
       <Project>{44b77ce9-18c2-48c2-9cdf-805c843d1d7d}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\app\AppContext.hpp" />
+    <ClInclude Include="include\app\Component.hpp" />
+    <ClInclude Include="include\app\Page.hpp" />
+    <ClInclude Include="include\app\Router.hpp" />
+    <ClInclude Include="include\app\UI.hpp" />
+    <ClInclude Include="include\components\StatusBar.hpp" />
+    <ClInclude Include="include\pages\home.hpp" />
+    <ClInclude Include="include\pages\garage.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
